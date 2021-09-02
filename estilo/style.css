@@ -1,0 +1,371 @@
+/*Estilos Gerais*/
+    @import url('https://fonts.googleapis.com/css?family=Roboto:300&display=swap');
+
+    body{
+        background-color: #052537 !important;
+        text-decoration: none;
+    }
+
+    .container-fluid{
+        margin: 0 !important;
+        padding: 0 !important;
+    }
+    
+    .buttonLink{
+        color: white !important;
+    }
+    
+    #Box a{
+        text-decoration: none;
+        color: black;
+    }
+
+/*Estilo referente ao NavBar de todas as páginas*/
+    #navbar{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        padding: 0 15%;
+        font-size: 1.1rem;
+    }
+
+    #navbar div a{
+        color: white;
+    }
+
+    #navbar div a:hover{
+        color: #c4c4c4;
+    }
+    
+    #navbar{
+        background-color: #03474F;
+        opacity: 0.8;
+        font-family: Roboto, sans-serif;
+    }
+    
+    a:link{
+        text-decoration: none !important;
+    }
+
+/*Estilo geral que os inputs e tabelas levam*/
+    input, td, tr{
+        text-align: center;
+        vertical-align: middle !important;
+        font-weight: 400;
+    }
+
+    .table thead th{
+        vertical-align: middle !important;
+    }
+
+    .fc-content{
+        cursor: pointer;
+    }
+
+
+/*Dispositivos extra small (telefones em modo retrato, com menos de 576px)*/
+@media (max-width: 575.98px) {
+}
+
+/*Dispositivos small (telefones em modo paisagem, com 576px ou mais)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+}
+
+/*Dispositivos médios (tablets com 768px ou mais)*/
+@media (min-width: 768px) and (max-width: 991.98px) { 
+}
+
+/*Dispositivos large (desktops com 992px ou mais)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+}
+
+/*Dispositivos extra large (desktops grandes com 1200px ou mais)*/
+@media (min-width: 1200px) { 
+    body{
+        height: 100%;
+        width: 100%;
+        background-size: cover;
+        position: relative;
+        text-align-last: center;
+        text-align: center;
+    }
+    
+    #Box{
+        background: white center;
+        font-weight: 500;
+        opacity: 0.8;
+        width: 68%;
+        height: 80%;
+        margin-top: 50px;
+        margin-right: auto;
+        margin-bottom: 0px;
+        margin-left: auto;
+        position: relative;
+        border: solid 3px rgb(26, 26, 26);
+        box-sizing: content-box;
+        font-size: 24px;
+    }
+
+/*Estilo envolvendo os conteudos do Modal na parte de Visualização de dados*/
+    .modalInfo div{
+        font-size: 22px;
+        margin: 3px 0px;
+    }
+    
+    .modalInfo label{
+        font-size: 20px;
+    }
+    
+    span{
+        font-size: 20px !important;
+    }
+    
+    .subTituloModal{
+        font-size: 25px !important;
+    }
+    
+/*Estilo que lida com a página de historico de movimentações do estoque*/
+    .tableRowHistorico:hover{
+        cursor: pointer;
+        background-color: rgba(0, 0, 0, 0.35);
+    }
+    
+    .tableRowHistorico{
+        opacity: 0.9;
+        width: 100%;
+        height: 50px;
+        margin: 15px auto;
+        font-weight: 400;
+    }
+    
+    .adicionado{
+        background-color: rgba(129, 237, 155, 0.33);
+    }
+    
+    .retirado{
+        background-color: rgba(255, 0, 0, 0.20);
+    }
+    
+    .transferido{
+        background-color: rgba(0, 188, 255, 0.20);
+    }
+    
+/*Estilo referente a navbar*/
+    #navbar{
+        height: 50px;
+    }
+    
+/*Estilos referentes a exibição da Escola na Box*/
+    #escola div{
+        font-size: 22px;
+        font-weight: 400;
+        margin: 5px;
+        
+    }
+    
+    .subTitulos{
+        font-size: 25px !important;
+    }
+    
+    .buttonLink{
+        margin: 10px auto;
+    }
+/*Estilos referentes a alinhamentos e formatações dos modais*/
+    form{
+        margin: 3% 8% 2% 8%;
+    }
+    
+    label{
+        margin: 1% 0 0 0;
+    }
+    
+/*Estilo referente a Mudanças na estrutura de inputs*/
+    [type="date"]::-webkit-inner-spin-button {
+        display: none;
+    }
+    
+    input[type=number]::-webkit-inner-spin-button { 
+        -webkit-appearance: none;
+    }
+
+/*Estilo referente a tamanhos e espaçamentos de atributos gerais*/
+    tr td{
+        font-size: 20px;
+    }
+    
+    h3{
+        margin: 3% 3%;
+    }
+}
+
+@media (min-width: 1920px) and (min-height: 1080px){
+    body{
+        height: 100%;
+        width: 100%;
+        background-size: cover;
+        position: relative;
+        text-align-last: center;
+        text-align: center;
+    }
+    
+    #Box{
+        background: white center;
+        font-weight: 500;
+        opacity: 0.8;
+        width: 65%;
+        height: 80%;
+        margin-top: 100px;
+        margin-right: auto;
+        margin-bottom: 0px;
+        margin-left: auto;
+        position: relative;
+        border: solid 4px rgb(26, 26, 26);
+        box-sizing: content-box;
+        font-size: 22px;
+    }
+
+/*Estilo envolvendo os conteudos do Modal na parte de Visualização de dados*/
+    .modalInfo div{
+        font-size: 28px;
+        margin: 5px 0px;
+    }
+    
+    .modalInfo label{
+        font-size: 25px;
+    }
+    
+    span{
+        font-size: 25px !important;
+    }
+    
+    .subTituloModal{
+        font-size: 31px !important;
+    }
+    
+    .estoqueHistorico{
+        max-width: 67% !important;
+    }
+
+    .modal-dialog{
+        max-width: 40%;
+    }
+    
+    .h5, h5{
+        font-size: 30px !important;
+    }
+    
+    .btn-danger{
+        font-size: 24px;
+        padding: 11px 26px !important;
+        margin: 15px auto 9px auto !important;
+    }
+    
+/*Estilo referente aos modais de Estoque*/
+    .form-control, .custom-select{
+        height: 55px;
+        font-size: 24px;
+    }
+
+    #buttonSubmit, #buttonTransferir{
+        font-size: 23.2px; 
+    }
+    
+/*Estilo que lida com a página de historico de movimentações do estoque*/
+    .tableRowHistorico:hover{
+        cursor: pointer;
+        background-color: rgba(0, 0, 0, 0.35);
+    }
+    
+    .tableRowHistorico{
+        opacity: 0.9;
+        width: 100%;
+        height: 50px;
+        margin: 15px auto;
+        font-weight: 400;
+    }
+    
+    .adicionado{
+        background-color: rgba(129, 237, 155, 0.33);
+    }
+    
+    .retirado{
+        background-color: rgba(255, 0, 0, 0.20);
+    }
+    
+    .transferido{
+        background-color: rgba(0, 188, 255, 0.20);
+    }
+    
+/*Estilo referente a navbar*/
+    #navbar{
+        font-size: 24px;
+        height: 70px;
+    }
+    
+/*Estilos referentes a exibição da Escola na Box*/
+    #escola div{
+        font-size: 22px;
+        font-weight: 400;
+        margin: 5px;
+    }
+    
+    .subTitulos{
+        font-size: 25px !important;
+    }
+    
+/*Estilos referentes a alinhamentos e formatações dos modais*/
+    form{
+        margin: 3% 8% 2% 8%;
+    }
+    
+    label{
+        margin: 1% 0 0 0;
+    }
+    
+/*Estilo referente a Mudanças na estrutura de inputs*/
+    [type="date"]::-webkit-inner-spin-button {
+        display: none;
+    }
+    
+    input[type=number]::-webkit-inner-spin-button { 
+        -webkit-appearance: none;
+    }
+
+/*Estilo referente a tamanhos e espaçamentos de atributos gerais exibidos nas Box's'*/
+    tr td{
+        font-size: 24px;
+    }
+
+    tr th{
+        font-size: 28px;
+    }
+    
+    h3{
+        margin: 3% 3%;
+        font-size: 35px;
+    }
+    
+    .btn {
+        padding: 14px 29px;
+    }
+    
+    .buttonLink, #buttonAdicionar, #button-cadastro{
+        margin: 14px auto;
+        font-size: 24.2px;
+    }
+    
+    img {
+        width: 35px;
+    }
+
+/*Adaptações de estilo para o Cardápio*/
+    #calendar{
+        margin: 50px auto !important;
+        max-width: 1200px !important;
+    }
+    
+    body .fc{
+        font-size: 21px !important;
+    }
+    
+}

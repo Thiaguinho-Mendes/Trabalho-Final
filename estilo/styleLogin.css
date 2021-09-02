@@ -1,0 +1,385 @@
+    body{
+        font-family: Times New Roman, Sans-serif;
+        height: 100%;
+        width: 100%;
+        background-size: cover;
+        position: relative;
+        text-align-last: center;
+    }
+
+    .container-fluid{
+        margin: 0 !important;
+        padding: 0 !important;
+    }
+
+/*Dispositivos extra small (telefones em modo retrato, com menos de 576px)*/
+@media (max-width: 575.98px) {
+    body{
+        background: url('backgrounds/imagem-575.jpg') no-repeat;
+        height: 100%;
+        background-size: auto;
+        position: relative;
+        text-align-last: center;
+    }
+    #Login{
+        background: white center;
+        opacity: 0.5;
+        width: 180px;
+        height: 260px;
+        margin-top: 80px;
+        margin-right: auto;
+        margin-bottom: 0px;
+        margin-left: auto;
+        position: relative;
+        border: solid 3px rgb(26, 26, 26);
+        text-align: center;
+        font-size: 12px;
+    }
+    #Login>input, #Login>h4{
+        margin: inherit;
+    }
+
+    #avatar{
+        background: url("icones/user.png") no-repeat;
+        height: 50px;
+        width: 50px;
+        background-size: cover;
+        margin-top: 7px;
+        margin-left: 37%;
+        margin-bottom: 25px;
+
+    }
+
+    h4{
+        font-size: 16px;
+    }
+
+    header{
+        background-color: #323A45;
+        opacity: 0.8;
+    }
+    #Titulo{
+        text-align: center;
+        color: White;
+        font-size: 20px;
+    }
+
+    .btn{
+        width: 60px;
+        height: 30px;
+    }
+    .container{
+        text-align: left;
+        font-family: Times New Roman, Sans-serif;
+    }
+
+    .form-control{
+        text-align-last: center;
+    }
+}
+
+/*Dispositivos small (telefones em modo paisagem, com 576px ou mais)*/
+@media (min-width: 576px) and (max-width: 767.98px) { 
+
+    body{
+        background: url('backgrounds/imagem-767.jpg') no-repeat;
+        height: 100%;
+        width: 100%;
+        background-size: auto;
+        position: relative;
+    }
+    #Login{
+        background: white center;
+        opacity: 0.5;
+        width: 220px;
+        height: 320px;
+        margin-top: 50px;
+        margin-right: auto;
+        margin-bottom: 0px;
+        margin-left: auto;
+        position: relative;
+        border: solid 3px rgb(26, 26, 26);
+        text-align: center;
+    }
+    #Login>input, #Login>h4{
+        margin: inherit;
+    }
+
+    #avatar{
+        background: url("https://image.flaticon.com/icons/png/128/149/149452.png") no-repeat;
+        width: 70px;
+        height: 70px;
+        background-size: cover;
+        margin-top: 14px;
+        margin-left: 35%;
+
+    }
+
+    h4{
+        font-size: 18px;
+    }
+
+    header{
+        background-color: #323A45;
+        opacity: 0.8;
+    }
+    #Titulo{
+        text-align: center;
+        color: White;
+        font-size: 22px;
+    }
+    .btn{
+        width: 60px;
+        height: 30px;
+    }
+    .container{
+        text-align: left;
+        font-family: Times New Roman, Sans-serif;
+        font-size: 14px;
+
+    }
+    .form-control{
+        text-align-last: center;
+    }
+}
+
+/*Dispositivos médios (tablets com 768px ou mais)*/
+@media (min-width: 768px) and (max-width: 991.98px) { 
+
+    body{
+        background: url('backgrounds/imagem-767.jpg') no-repeat;
+        height: 100%;
+        width: 100%;
+        background-size: cover;
+        position: relative;
+        text-align-last: center;
+    }
+    #Login{
+        background: white center;
+        opacity: 0.5;
+        width: 280px;
+        height: 390px;
+        margin-top: 50px;
+        margin-right: auto;
+        margin-bottom: 0px;
+        margin-left: auto;
+        position: relative;
+        border: solid 3px rgb(26, 26, 26);
+        text-align: center;
+    }
+    #Login>input, #Login>h4{
+        margin: inherit;
+    }
+
+    #avatar{
+        background: url("https://image.flaticon.com/icons/png/128/149/149452.png") no-repeat;
+        width: 130px;
+        height: 130px;
+        margin-top: 17px;
+        margin-left: 27%;
+        margin-bottom: 20px;
+    }
+    header{
+        background-color: #323A45;
+        opacity: 0.8;
+    }
+
+    h4{
+        font-size: 22px;
+    }
+
+    #Titulo{
+        text-align: center;
+        color: White;
+        font-size: 32px;
+    }
+
+    .btn{
+        width: 60px;
+        height: 30px;
+    }
+
+    .container{
+        text-align: left;
+        font-family: Times New Roman, Sans-serif;
+        font-size: 22px;
+
+    }
+    .form-control{
+        text-align-last: center;
+    }
+}
+
+/*Dispositivos large (desktops com 992px ou mais)*/
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+
+    body{
+        background: url('backgrounds/imagem.jpg') no-repeat;
+        height: 100%;
+        width: 100%;
+        background-size: cover;
+        position: relative;
+        text-align-last: center;
+    }
+    
+    #Login{
+        background: white center;
+        opacity: 0.5;
+        width: 280px;
+        height: 399px;
+        margin-top: 50px;
+        margin-right: auto;
+        margin-bottom: 0px;
+        margin-left: auto;
+        position: relative;
+        border: solid 3px rgb(26, 26, 26);
+        text-align: center;
+    }
+    
+    #Login>input, #Login>h4{
+        margin: inherit;
+    }
+
+    #avatar{
+        background: url("https://image.flaticon.com/icons/png/128/149/149452.png") no-repeat;
+        width: 150px;
+        height: 150px;
+        margin: 15px auto 10px auto;
+    }
+    
+    header{
+        background-color: #323A45;
+        opacity: 0.8;
+    }
+    
+    #Titulo{
+        text-align: center;
+        color: White;
+
+    }
+    .container{
+        text-align: left;
+        font-family: Times New Roman, Sans-serif;
+        font-size: 24px;        
+    }
+
+    .form-control{
+        text-align-last: center;
+    }
+}
+
+/*Dispositivos extra large (desktops grandes com 1200px ou mais)*/
+@media (min-width: 1200px) {
+
+    body{
+        background: url('backgrounds/imagem.jpg') no-repeat;
+        height: 100%;
+        width: 100%;
+        background-size: cover;
+        position: relative;
+        text-align-last: center;
+    }
+
+    #Login{
+        background: white center;
+        opacity: 0.5;
+        width: 280px;
+        height: 400px;
+        margin-top: 50px;
+        margin-right: auto;
+        margin-bottom: 0px;
+        margin-left: auto;
+        position: relative;
+        border: solid 3px rgb(26, 26, 26);
+        text-align: center;
+    }
+
+    #Login>input, #Login>h4{
+        margin: inherit;
+    }
+
+    #avatar{
+        margin: 15px auto 0 auto;
+    }
+    
+    .textInput{
+        font-size: 27px;
+        margin: 5px auto 0px auto;
+    }
+
+    header{
+        background-color: #323A45;
+        opacity: 0.8;
+    }
+    #Titulo{
+        text-align: center;
+        color: White;
+    }
+    .container{
+        text-align: left;
+        font-family: Times New Roman, Sans-serif;
+        font-size: 28px;
+    }
+}
+
+@media (min-width: 1920px) and (min-height: 1080px){
+    
+    body{
+        background: url('backgrounds/imagem.jpg') no-repeat;
+    }
+
+    #Login{
+        background: white center;
+        opacity: 0.5;
+        width: 480px;
+        height: 572px;
+        margin-top: 150px;
+        margin-right: auto;
+        margin-bottom: 0px;
+        margin-left: auto;
+        position: relative;
+        border: solid 3px rgb(26, 26, 26);
+        text-align: center;
+    }
+
+    #Login>input, #Login>h4{
+        margin: inherit;
+    }
+
+    #avatar img{
+        height: 200px;
+        margin: 20px auto 20px auto;
+    }
+
+    .textInput{
+        font-size: 33px;
+        margin: 15px auto 0px auto;
+    }
+    
+    .form-control{
+        font-size: 22px;
+        text-align: center;
+        height: 50px;
+    }
+
+    #buttonLogin{
+        font-size: 25px;
+        margin: auto;
+    }
+    
+    #cabecalho{
+        background-color: #323A45;
+        opacity: 0.8;
+        font-size: 28px;
+        height: 140px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .Titulo{
+        text-align: center;
+        color: White;
+    }
+    
+}
